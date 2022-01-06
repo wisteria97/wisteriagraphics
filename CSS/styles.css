@@ -1,0 +1,121 @@
+/* Background */
+body {
+  margin: 0;
+}
+
+/* Name Header */
+
+.big-header {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  padding: 100px;
+  max-height: 100%;
+}
+
+.my-name {
+  font-family: "Bacalisties";
+  font-size: 100px;
+  color: black;
+  margin: auto;
+}
+
+.my-title {
+  font-family: "Raleway";
+  font-size: 24px;
+  color: #F1D1D0;
+  text-align: center;
+  margin: auto;
+}
+
+/* Sections */
+.section {
+  height: 100px;
+  padding: 50px;
+  margin: auto;
+  width: 50%;
+  max-width: 75%;
+  display: block;
+  height: 100%;
+}
+
+footer {
+  padding: 30px;
+  background-color: #F4F9F9;
+}
+
+/* Text */
+
+.h2 {
+  font-family: "LEMON MILK";
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-family: "Raleway";
+  font-size: 18px;
+  color: black;
+  line-height: 2;
+}
+
+.highlight {
+  color: #DEA3A1;
+}
+
+/* Other */
+.sakura {
+  width: 30px;
+  margin: auto;
+}
+.button {
+  background-color: #C8C6C6;
+  color: white;
+  width: 150px;
+  font-family: "LEMON MILK";
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 30px;
+  transition: 0.3s;
+  opacity: 100%;
+}
+
+/* Effects */
+.link {
+  color: #FBACCC;
+  text-decoration: none;
+}
+
+.link:hover {
+  transition: 0.3s;
+  opacity: 50%;
+}
+
+.button:hover {
+  transition: 0.3s;
+  background-color: #FBACCC;
+}
+
+/* IDs */
+#lh {
+  line-height: 1;
+}
+
+#center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+}
+
+#left {
+  float: left;
+  vertical-align: middle;
+  margin-right: 20px;
+}

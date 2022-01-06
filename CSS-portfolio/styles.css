@@ -1,0 +1,103 @@
+/* Base */
+body {
+  margin: auto;
+  width: 95%;
+  max-width: 100%;
+}
+
+.navigation {
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 16px;
+  margin: 50px;
+  text-align: center;
+}
+
+.navigator {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+  transition: 0.3s;
+}
+
+.navigator:hover {
+  transition: 0.3s;
+  opacity: 50%;
+}
+
+/* Formatting */
+.grid {
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 450px;
+  max-width: 100%;
+}
+
+/* Text */
+h1 {
+  display: block;
+  font-family: "LEMON MILK";
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding: 100px;
+  margin: auto 50px;
+}
+
+h3 {
+  font-family: "LEMON MILK";
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Raleway";
+  font-size: 16px;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+/* Stylization */
+.tag {
+  display: inline-block;
+  font-family: "Raleway";
+  color: #DEA3A1;
+  font-weight: normal;
+  font-size: 12px;
+  width: fit-content;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: 1px solid;
+  border-color: #DEA3A1;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.tag:hover {
+  transition: 0.3s;
+  color: white;
+  background-color: #DEA3A1;
+}
+
+img {
+  object-fit: contain;
+  height: 253px;
+  width: 450px;
+  max-height: 100%;
+  max-width: 100%;
+  transition: 0.5s;
+  opacity: 75%;
+  text-align: center;
+  border-radius: 25px;
+}
+
+img:hover {
+  transition: 0.5s;
+  opacity: 100%;
+}
